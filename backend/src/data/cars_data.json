@@ -1,0 +1,256 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Toyota Camry",
+      "brand": "Toyota",
+      "type": "Sedan",
+      "year": 2024,
+      "price_range": {
+        "min": 26000,
+        "max": 35000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Gasoline", "Hybrid"],
+      "use_cases": ["Daily Commute", "Family", "Highway"],
+      "drivetrain": "FWD",
+      "transmission": "Automatic",
+      "features": ["Adaptive Cruise Control", "Lane Assist", "Apple CarPlay"],
+      "available_colors": ["White", "Black", "Silver", "Red", "Blue"],
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Ford F-150",
+      "brand": "Ford",
+      "type": "Pickup Truck",
+      "year": 2024,
+      "price_range": {
+        "min": 35000,
+        "max": 72000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Gasoline", "Diesel", "Hybrid", "Electric"],
+      "use_cases": ["Off-Road", "Towing", "Work", "Family", "Daily Commute"],
+      "drivetrain": "4WD",
+      "transmission": "Automatic",
+      "features": [
+        "Tow Package",
+        "Bed Liner",
+        "Pro Trailer Backup Assist",
+        "4K Camera"
+      ],
+      "available_colors": ["White", "Black", "Blue", "Red", "Green", "Silver"],
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Tesla Model 3",
+      "brand": "Tesla",
+      "type": "Sedan",
+      "year": 2024,
+      "price_range": {
+        "min": 40000,
+        "max": 55000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Electric"],
+      "use_cases": ["Daily Commute", "Highway", "Eco-Friendly"],
+      "drivetrain": "RWD",
+      "transmission": "Automatic",
+      "features": [
+        "Autopilot",
+        "15-inch Touchscreen",
+        "OTA Updates",
+        "Supercharging"
+      ],
+      "available_colors": ["White", "Black", "Red", "Blue", "Silver"],
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Jeep Wrangler",
+      "brand": "Jeep",
+      "type": "SUV",
+      "year": 2024,
+      "price_range": {
+        "min": 32000,
+        "max": 58000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Gasoline", "Hybrid"],
+      "use_cases": ["Off-Road", "Adventure", "Overlanding", "Daily Commute"],
+      "drivetrain": "4WD",
+      "transmission": "Manual",
+      "features": [
+        "Removable Doors",
+        "Fold-Down Windshield",
+        "Skid Plates",
+        "Dana Axles"
+      ],
+      "available_colors": [
+        "Black",
+        "Green",
+        "Orange",
+        "Yellow",
+        "White",
+        "Red"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "name": "Honda Civic",
+      "brand": "Honda",
+      "type": "Sedan",
+      "year": 2024,
+      "price_range": {
+        "min": 23000,
+        "max": 31000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Gasoline", "Hybrid"],
+      "use_cases": ["Daily Commute", "Student", "City Driving"],
+      "drivetrain": "FWD",
+      "transmission": "CVT",
+      "features": [
+        "Honda Sensing",
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charging"
+      ],
+      "available_colors": ["White", "Black", "Blue", "Red", "Gray", "Green"],
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "name": "BMW X5",
+      "brand": "BMW",
+      "type": "SUV",
+      "year": 2024,
+      "price_range": {
+        "min": 65000,
+        "max": 95000,
+        "currency": "USD"
+      },
+      "seats": 7,
+      "fuel_types": ["Gasoline", "Diesel", "Hybrid"],
+      "use_cases": ["Luxury", "Family", "Highway", "Daily Commute"],
+      "drivetrain": "AWD",
+      "transmission": "Automatic",
+      "features": [
+        "Panoramic Sunroof",
+        "Harman Kardon Audio",
+        "Gesture Control",
+        "Night Vision"
+      ],
+      "available_colors": ["White", "Black", "Blue", "Gray", "Brown"],
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Toyota Prius",
+      "brand": "Toyota",
+      "type": "Hatchback",
+      "year": 2024,
+      "price_range": {
+        "min": 28000,
+        "max": 36000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Hybrid", "Plug-in Hybrid"],
+      "use_cases": ["Eco-Friendly", "Daily Commute", "City Driving", "Highway"],
+      "drivetrain": "FWD",
+      "transmission": "CVT",
+      "features": [
+        "Toyota Safety Sense",
+        "8-inch Display",
+        "Wireless Charging",
+        "Solar Roof"
+      ],
+      "available_colors": ["White", "Black", "Silver", "Blue", "Red"],
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Chevrolet Corvette",
+      "brand": "Chevrolet",
+      "type": "Sports Car",
+      "year": 2024,
+      "price_range": {
+        "min": 65000,
+        "max": 130000,
+        "currency": "USD"
+      },
+      "seats": 2,
+      "fuel_types": ["Gasoline"],
+      "use_cases": ["Track", "Weekend Drive", "Performance"],
+      "drivetrain": "RWD",
+      "transmission": "Automatic",
+      "features": [
+        "Performance Data Recorder",
+        "Magnetic Ride Control",
+        "Brembo Brakes",
+        "HUD"
+      ],
+      "available_colors": ["Red", "Yellow", "White", "Black", "Blue", "Silver"],
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "Mercedes-Benz Sprinter",
+      "brand": "Mercedes-Benz",
+      "type": "Van",
+      "year": 2024,
+      "price_range": {
+        "min": 42000,
+        "max": 70000,
+        "currency": "USD"
+      },
+      "seats": 12,
+      "fuel_types": ["Gasoline", "Diesel", "Electric"],
+      "use_cases": ["Cargo", "Passenger Transport", "Camper Van", "Business"],
+      "drivetrain": "RWD",
+      "transmission": "Automatic",
+      "features": [
+        "High Roof Option",
+        "Parking Assist",
+        "MBUX Infotainment",
+        "Cargo Partition"
+      ],
+      "available_colors": ["White", "Silver", "Black"],
+      "rating": 4.3
+    },
+    {
+      "id": 10,
+      "name": "Subaru Outback",
+      "brand": "Subaru",
+      "type": "Wagon",
+      "year": 2024,
+      "price_range": {
+        "min": 29000,
+        "max": 42000,
+        "currency": "USD"
+      },
+      "seats": 5,
+      "fuel_types": ["Gasoline"],
+      "use_cases": ["Off-Road", "Adventure", "Family", "Camping", "Highway"],
+      "drivetrain": "AWD",
+      "transmission": "CVT",
+      "features": [
+        "EyeSight Driver Assist",
+        "X-Mode",
+        "Roof Rails",
+        "11.6-inch Display"
+      ],
+      "available_colors": ["White", "Green", "Blue", "Silver", "Brown", "Red"],
+      "rating": 4.5
+    }
+  ]
+}

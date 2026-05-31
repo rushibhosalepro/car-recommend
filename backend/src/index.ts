@@ -14,7 +14,8 @@ app.post("/api/recommend", async (req, res) => {
     console.log(context);
 
     const response = await runAgent(context);
-    return res.json({ succes: true, data: response });
+    if (!response) throw Error("somthing wents wrong");
+    return res.json({ succes: true, data: JSON.parse(response) });
   } catch (error) {
     console.log(error);
     return res.status(500).json({ error: "Internal server error" });

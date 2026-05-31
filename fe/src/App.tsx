@@ -103,8 +103,8 @@ export function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  const url = `${import.meta.env.VITE_BASE_URL}/recommend`;
-
+  const url = `${import.meta.env.VITE_BACKEND_URL}/recommend`;
+  console.log(url);
   const recommend = async (data: Answer[]) => {
     setOpen(false);
     setLoading(true);
